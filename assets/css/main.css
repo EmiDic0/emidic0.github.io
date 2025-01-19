@@ -4691,3 +4691,23 @@ input, select, textarea {
 	{
 		color: #18bfef;
 	}
+	.column {
+		float: left;
+		width: 25%;
+		padding-left: 50px;
+		padding-right: 50px;
+
+	}
+	.row2::after {
+		content: "";
+		clear: both;
+		display: table;
+	}
+
+	.centeredtext {
+		text-align: center;
+	}
+
+	a.img-link {
+		text-decoration: none;
+	}
