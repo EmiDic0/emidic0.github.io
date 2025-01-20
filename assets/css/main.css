@@ -4728,11 +4728,11 @@ input, select, textarea {
 		padding-right: 75px;
 
 	}
-	@media (max-width: 768px) {
+	@media (max-width: 900px) {
 		.column {
 			width: 100%;
-			padding-left: 200px;
-			padding-right: 200px;
+			padding-left: 150px;
+			padding-right: 150px;
 			padding-bottom: 50px;
 		}
 	}
@@ -4743,11 +4743,11 @@ input, select, textarea {
 		padding-right: 175px;
 
 	}
-	@media (max-width: 768px) {
+	@media (max-width: 900px) {
 		.column2 {
 			width: 100%;
-			padding-left: 200px;
-			padding-right: 200px;
+			padding-left: 150px;
+			padding-right: 150px;
 		}
 	}
 	.row2::after {
