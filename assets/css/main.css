@@ -4728,12 +4728,27 @@ input, select, textarea {
 		padding-right: 75px;
 
 	}
+	@media (max-width: 768px) {
+		.column {
+			width: 100%;
+			padding-left: 200px;
+			padding-right: 200px;
+			padding-bottom: 50px;
+		}
+	}
 	.column2 {
 		float: left;
 		width: 50%;
 		padding-left: 175px;
 		padding-right: 175px;
 
+	}
+	@media (max-width: 768px) {
+		.column2 {
+			width: 100%;
+			padding-left: 200px;
+			padding-right: 200px;
+		}
 	}
 	.row2::after {
 		content: "";
