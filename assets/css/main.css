@@ -2585,6 +2585,36 @@ input, select, textarea {
 			font-family: 'Font Awesome 5 Brands';
 		}
 
+	.download {
+		text-decoration: none;
+		border-bottom: none;
+		position: relative;
+	}
+	
+		.download:before {
+			-moz-osx-font-smoothing: grayscale;
+			-webkit-font-smoothing: antialiased;
+			display: inline-block;
+			font-style: normal;
+			font-variant: normal;
+			text-rendering: auto;
+			line-height: 1;
+			text-transform: none !important;
+			font-family: 'Font Awesome 6 Free';
+			font-weight: 400;
+			content: \f019;
+		}
+	
+		.download > .label {
+			display: none;
+		}
+	
+		.download:before {
+			line-height: inherit;
+		}
+	
+	
+
 /* Image */
 
 	.image {
@@ -4696,6 +4726,13 @@ input, select, textarea {
 		width: 25%;
 		padding-left: 50px;
 		padding-right: 50px;
+
+	}
+	.column2 {
+		float: left;
+		width: 50%;
+		padding-left: 150px;
+		padding-right: 150px;
 
 	}
 	.row2::after {
