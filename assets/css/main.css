@@ -4751,6 +4751,20 @@ input, select, textarea {
 			padding-right: 30%;
 		}
 	}
+	.column3 {
+		float: left;
+		width: 30%;
+		padding-left: 0%;
+		padding-right: 0%;
+
+	}
+	@media (max-width: 900px) {
+		.column3 {
+			width: 30%;
+			padding-left: 0%;
+			padding-right: 0%;
+		}
+	}
 	.row2::after {
 		content: "";
 		clear: both;
