@@ -4724,30 +4724,31 @@ input, select, textarea {
 	.column {
 		float: left;
 		width: 25%;
-		padding-left: 75px;
-		padding-right: 75px;
+		padding-left: 7.5%;
+		padding-right: 7.5%;
 
 	}
 	@media (max-width: 900px) {
 		.column {
 			width: 100%;
-			padding-left: 150px;
-			padding-right: 150px;
-			padding-bottom: 50px;
+			padding-left: 40%;
+			padding-right: 40%;
+			padding-bottom: 20px;
+			padding-top: 20px;
 		}
 	}
 	.column2 {
 		float: left;
 		width: 50%;
-		padding-left: 175px;
-		padding-right: 175px;
+		padding-left: 15%;
+		padding-right: 15%;
 
 	}
 	@media (max-width: 900px) {
 		.column2 {
 			width: 100%;
-			padding-left: 150px;
-			padding-right: 150px;
+			padding-left: 30%;
+			padding-right: 30%;
 		}
 	}
 	.row2::after {
